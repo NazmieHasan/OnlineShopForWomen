@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>{TITLE}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!--webfont-->
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dorsa' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!-- start menu -->
+<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+<script src="js/jquery.easydropdown.js"></script>
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+		    <script type="text/javascript">
+			    $(document).ready(function () {
+			        $('#horizontalTab').easyResponsiveTabs({
+			            type: 'default', //Types: default, vertical, accordion           
+			            width: 'auto', //auto or any width like 600px
+			            fit: true   // 100% fit in a container
+			        });
+			    });
+            </script>	
+
+</head>
+<body>
+	<div class="men_banner">
+   	  <div class="container">
+   	  	<div class="header_top">
+   	  	   <div class="header_top_left">
+	  	      <div class="box_11"><a href="cart.php">
+		      <h4><p>Сума: <span class="simpleCart_total">{SUM} лв.</span> за {ITEMS} продукт(а)</p><img src="images/bag.png" alt=""/><div class="clearfix"> </div></h4>
+		      </a></div>
+	          <p class="empty"><a href="empty_cart.php" class="simpleCart_empty">Изтрий продуктите</a></p>
+	          <div class="clearfix"> </div>
+	       </div>
+           <div class="header_top_right">
+		  	 <div class="lang_list">
+				
+			 </div>
+			 <ul class="header_user_info">
+			  <a class="login" href="cart.php">
+				<i class="user"> </i> 
+				<li class="user_desc">Поръчай</li>
+			  </a>
+			  <div class="clearfix"> </div>
+		     </ul>
+		    <!-- start search-->
+				<div class="search-box">
+				  
+				 </div>
+				 <!----search-scripts---->
+				 <script src="js/classie1.js"></script>
+				 <script src="js/uisearch.js"></script>
+				   <script>
+					 new UISearch( document.getElementById( 'sb-search' ) );
+				   </script>
+					<!----//search-scripts---->
+		            <div class="clearfix"> </div>
+			 </div>
+		     <div class="clearfix"> </div>
+	    </div>
+   		<div class="header_bottom">
+	   <div class="logo">
+		  <h1><a href="index.php"><span class="m_1">For Women</span></a></h1>
+	   </div>
+	   <div class="menu">
+	     <ul class="megamenu skyblue">
+				<li><a class="color2" href="index.php">Начало</a></li>
+	      <li><a class="color2" href="clothes.php">Дрехи</a></li>
+			  <li><a class="color2" href="shoes.php">Обувки</a></li>
+			  <li><a class="color4" href="accessories.php">Аксесоари</a></li>				
+				<li><a class="color10" href="brands.php">Браншове</a></li>
+				<li><a class="color7" href="contacts.php">Контакти</a></li>
+				<div class="clearfix"> </div>
+			</ul>
+			</div>
+	        <div class="clearfix"> </div>
+	    </div>
+	  </div>
+   </div>
+   <div class="men">
+   	<div class="container">
+      <div class="col-md-9 single_top">
+      	<div class="single_left">
+      	  <div class="labout span_1_of_a1">
+			<div class="flexslider">
+					 <ul class="slides">
+            {SLIDES}
+					 </ul>
+				  </div>
+		          <div class="clearfix"></div>	
+	    </div>
+		<div class="cont1 span_2_of_a1 simpleCart_shelfItem">
+		<form method=get action=cart_add.php>
+		<input type=hidden name=id value={ID}>
+				<h1>{MODEL}</h1>
+				<p class="availability">Наличност: <span class="color">{AVAL}</span></p>
+			    <div class="price_single">
+				  {PRICE} лв.
+				 	</div>
+				<h2 class="quick">Кратко описание:</h2>
+				<p class="quick_desc"> {OVERVIEW}</p>
+			    <div class="wish-list">
+				 	<ul>
+				 		<li class="wish"><a href="#">Добави в списък предпочитани</a></li>
+				 	  <li class="compare"><a href="#">Добави за сравнение</a></li>
+				 	</ul>
+				 </div>
+				<ul class="size">
+					<h3>Размер</h3>
+				     {SIZE} 
+				</ul>
+				<div class="quantity_box">
+					<ul class="product-qty">
+					   <span>Количество:</span>
+					   <select name=qty>
+						 <option>1</option>
+						 <option>2</option>
+						 <option>3</option>
+						 <option>4</option>
+						 <option>5</option>
+						 <option>6</option>
+					   </select>
+				    </ul>
+				    <ul class="single_social">
+						<li><a href="#"><i class="fb1"> </i> </a></li>
+						<li><a href="#"><i class="tw1"> </i> </a></li>
+						<li><a href="#"><i class="g1"> </i> </a></li>
+						<li><a href="#"><i class="linked"> </i> </a></li>
+		   		    </ul>
+		   		    <div class="clearfix"></div>
+	   		    </div>
+			      <button type=submit class="btn btn-primary btn-normal btn-inline btn_form button item_add item_1" >Добави в количката</button>
+			    </form>
+			</div>
+		    <div class="clearfix"> </div>
+		</div>
+        <div class="sap_tabs">	
+	       <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+			  <ul class="resp-tabs-list">
+			  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Пълно описание</span></li>
+				  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Допълнителна информация</span></li>
+				 
+			  </ul>				  	 
+			  <div class="resp-tabs-container">
+			    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+					<div class="facts">
+					  <ul class="tab_list">
+               {DESCR} 
+					  </ul>           
+			        </div>
+			     </div>	
+			      <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+					<div class="facts">
+					  <ul class="tab_list">
+					    {INFOLIST}
+					  </ul>           
+			        </div>
+			     </div>	
+			      <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+			        <div class="facts">
+					  <ul class="tab_list">
+					  	{REVIEWS}
+					  </ul>  
+					</div>    
+			     </div>	
+			  </div>
+		    </div>
+		  </div>	
+		</div>
+		<div class="col-md-3 tabs">
+	      <h3 class="m_1">ПОДОБНИ ПРОДУКТИ</h3>
+	     {OTHER}	
+        </div>
+     <div class="clearfix"> </div>
+	</div>
+   </div>
+  <div class="footer">
+   	 <div class="container">
+   	 	<div class="newsletter">
+			<h3>Абонирайте се за оферти!</h3>
+			<form method=get action=subscribe.php>
+			  <input type="text" name=email value="Моля, въведете имейл!" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+			  <input type="submit" value="Изпрати">
+			</form>
+		</div>
+		<ul class="social">
+		  <p>Следете ни в социалните мрежи!</p>
+			<li><a href=""> <i class="instagram"> </i> </a></li>
+			<li><a href=""><i class="fb"> </i> </a></li>
+			<li><a href=""><i class="tw"> </i> </a></li>
+	    </ul>
+	    <div class="clearfix"></div>
+	    <div class="copy">
+           <p> &copy; 2019 For Women</p>
+	    </div>
+   	</div>
+   </div>
+<!-- FlexSlider -->
+<script defer src="js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script>
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  });
+});
+</script>
+</body>
+</html>		

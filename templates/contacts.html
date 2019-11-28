@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>{TITLE}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!--webfont-->
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dorsa' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!-- start menu -->
+<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+<script src="js/jquery.easydropdown.js"></script>
+</head>
+<body>
+	<div class="men_banner">
+   	  <div class="container">
+   	  	<div class="header_top">
+   	  	   <div class="header_top_left">
+	  	      <div class="box_11"><a href="cart.php">
+		       <h4><p>Сума: <span class="simpleCart_total">{SUM} лв. </span>за {ITEMS} продукт(а)</p><img src="images/bag.png" alt=""/><div class="clearfix"> </div></h4>
+		      </a></div>
+	          <p class="empty"><a href="empty_cart.php" class="simpleCart_empty">Изтрий продуктите!</a></p>
+	          <div class="clearfix"> </div>
+	       </div>
+           <div class="header_top_right">
+		  	 <div class="lang_list">
+				
+				</select>
+			 </div>
+			 <ul class="header_user_info">
+			  <a href="cart.php">
+				<i class="user"> </i> 
+				<li class="user_desc">Поръчай</li>
+			  </a>
+			  <div class="clearfix"> </div>
+		     </ul>
+		    <!-- start search-->
+				<div class="search-box">
+				   <div id="sb-search" class="sb-search">
+					  
+				    </div>
+				 </div>
+				 <!----search-scripts---->
+				 <script src="js/classie1.js"></script>
+				 <script src="js/uisearch.js"></script>
+				   <script>
+					 new UISearch( document.getElementById( 'sb-search' ) );
+				   </script>
+					<!----//search-scripts---->
+		            <div class="clearfix"> </div>
+			 </div>
+		     <div class="clearfix"> </div>
+	   </div>
+   	  <div class="header_bottom">
+	   <div class="logo">
+		  <h1><a href="index.php"><span class="m_1">For Women</span></a></h1>
+	   </div>
+	   <div class="menu">
+	     <ul class="megamenu skyblue">
+	      <li><a class="color2" href="index.php">Начало</a></li>
+	      <li><a class="color2" href="clothes.php">Дрехи</a></li>
+			  <li><a class="color2" href="shoes.php">Обувки</a></li>
+			  <li><a class="color4" href="accessories.php">Аксесоари</a></li>				
+				<li><a class="color10" href="brands.php">Браншове</a></li>
+				<li><a class="color7" href="contacts.php">Контакти</a></li>
+				<div class="clearfix"> </div>
+			</ul>
+			</div>
+	        <div class="clearfix"> </div>
+	    </div>
+	   </div>
+   </div>
+   <div class="men">
+   	 <div class="container">
+   	  <div class="grid_1">
+	   	  <h1>Свържете се с нас</h1>
+	   	  <p></p>
+      </div>
+      <div class="grid_4">
+      <div class="grid_2 preffix_1">
+	      <ul class="iphone">
+	      	<i class="phone"> </i>
+	      	<li class="phone_desc">Телефон : (+359) 123 456 789 </li>
+	      	<div class="clearfix"> </div>
+	      </ul>
+	      <ul class="iphone">
+	      	<i class="flag"> </i>
+	        <li class="phone_desc">Уебсайт : <a href="http://www.forwomen.com">www.forwomen.com</a></li>
+	      	<div class="clearfix"> </div>
+	      </ul>
+	  </div>
+	  <div class="grid_3">
+	      <ul class="iphone">
+	      	<i class="msg"> </i>
+	        <li class="phone_desc">Имейл : <a href="mailto:mail@forwomen.com">mail@forwomen.com</a> </li>
+	      	<div class="clearfix"> </div>
+	      </ul>
+	      <ul class="iphone">
+	      	<i class="home"> </i>
+	        <li class="phone_desc">Адрес : град Варна</li>
+	      	<div class="clearfix"> </div>
+	      </ul>
+	  </div>
+	  <div class="clearfix"> </div>
+	 </div>
+	 <div class="contact_form">
+	 	<h2>Пишете ни</h2>
+	    <form>
+			<div class="col-md-6 to">
+        <input type="text" class="text" value="Име" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Име';}">
+        <input type="text" class="text" value="Фамилия" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Фамилия';}">
+			 	<input type="text" class="text" value="Имейл" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Имейл';}">
+			 	<input type="text" class="text" value="Тема" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Съобщение';}">
+			</div>
+			<div class="col-md-6 text">
+               <textarea value="Съобщение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Съобщение';}">Съобщение</textarea>
+            </div>
+            <div class="clearfix"></div>
+            <div class="but__center"><input type="submit" value="Изпрати &gt;&gt;"></div>
+        </form>
+     </div>
+    </div>
+   </div>
+   <div class="map">
+	   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.1999142235436!2d27.907688214990216!3d43.2052960892965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4538ad56d557b%3A0x912c9c9aa2bd3908!2z0JrQsNGC0LXQtNGA0LDQu9CwICLQodCy0LXRgtC-INCj0YHQv9C10L3QuNC1INCR0L7Qs9C-0YDQvtC00LjRh9C90L4iLCA5MDAwIEhyaXN0byBCb3RldiwgVmFybmE!5e0!3m2!1sen!2sbg!4v1574343206274!5m2!1sen!2sbg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+   </div>
+   <div class="footer">
+   	 <div class="container">
+   	 	<div class="newsletter">
+			<h3>Абонирайте се за оферти!</h3>
+			<form method=get action=subscribe.php>
+			  <input type="text" name=email value="Моля, въведете имейл!" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+			  <input type="submit" value="Изпрати">
+			</form>
+		</div>
+		<ul class="social">
+		  <p>Следете ни в социалните мрежи!</p>
+			<li><a href=""> <i class="instagram"> </i> </a></li>
+			<li><a href=""><i class="fb"> </i> </a></li>
+			<li><a href=""><i class="tw"> </i> </a></li>
+	    </ul>
+	    <div class="clearfix"></div>
+	    <div class="copy">
+           <p> &copy; 2019 For Women</p>
+	    </div>
+   	</div>
+   </div>
+</body>
+</html>		
