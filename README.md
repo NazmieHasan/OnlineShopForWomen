@@ -1,1 +1,1 @@
-PHP, JavaScript, Bootstrap
+PHP & MySQL, JavaScript, Bootstrap
