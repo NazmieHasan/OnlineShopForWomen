@@ -10,7 +10,7 @@ include('library.php');
 
 $rel_N = 4;     // qty of related products
 
-$tpl->get_tpl('templates/brands.html');
+$tpl->get_tpl('templates/all_products.html');
 
 $sum = get_cart_sum();                    // total sum of cart
 $items = get_cart_num_items();            // num of items
@@ -51,7 +51,7 @@ $brands .= "</table>";
 $related = get_rand_products($rel_N);
 
 
-$tpl->set_value('TITLE', $title=$title.' Браншове');  
+$tpl->set_value('TITLE', $title=$title.' Всички стоки');  
 $tpl->set_value('SUM',$sum);  
 $tpl->set_value('ITEMS',$items);  
 $tpl->set_value('NBRANDS',$nbrands);  

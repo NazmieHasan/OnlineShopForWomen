@@ -31,7 +31,7 @@ if (isset($_SESSION['cart'])) {
 							<li><p>Количество : $qty</p></li>
 						</ul>
 						<div class=\"delivery\">
-							 <p>Service Charges : Rs.100.00</p>
+							
 							 <span>Доставка в рамките на 3 работни дни</span>
 							 <div class=\"clearfix\"></div>
 				        </div>	

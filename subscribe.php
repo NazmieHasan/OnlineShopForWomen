@@ -10,9 +10,9 @@ include('library.php');
 $email = filter_input(INPUT_GET, 'email', FILTER_VALIDATE_EMAIL);
 
 if ($email == NULL || $email == FALSE) 
-    $MSG = "<h1>Грешка!</h1> <p>Проверете имейла!";
+    $MSG = "<h1>Грешка!</h1><p>Проверете имейла!</p>";
 else {
-    $MSG = "<h1>Благодарим Ви!</h1> <p>Ще получите информация за отстъпки и промоции навреме!</p>";
+    $MSG = "<h1>Благодарим Ви!</h1><p>Ще получите информация за отстъпки и промоции навреме!</p>";
     file_put_contents ('emails.txt', "$email\n", FILE_APPEND);
     
 }   
