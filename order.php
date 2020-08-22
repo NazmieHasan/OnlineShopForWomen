@@ -36,7 +36,7 @@ if (isset($_SESSION['cart'])) {
 
 }
 else 
-    $MSG = "<h1>Error!</h1> <p>Количката е празна!</p>";
+    $MSG = "<h1>Грешка!</h1> <p>Количката е празна!</p>";
 
 $tpl->get_tpl('templates/order.html');
 $tpl->set_value('TITLE', $title=$title.' Поръчки');          // this var defined in config.php
