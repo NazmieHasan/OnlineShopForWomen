@@ -21,7 +21,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 .banner {
-	background: url(../images/bnew1.jpg) no-repeat center top;
+	background: url(../images/header_background.jpg) no-repeat center top;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -380,7 +380,7 @@ ul.header_user_info li.user_desc{
     letter-spacing: 5px;
 }
 span.m_1 {
-  color:#D67472;
+  color:#fffff;
 }
 .logo{
 	float:left;
@@ -1048,7 +1048,7 @@ ul.social li a i.tw{
 	padding: 5em 0 2em;
 }
 .men_banner {
-	background: url(../images/bnew1.jpg) no-repeat center top;
+	background: url(../images/header_background.jpg) no-repeat center top;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1885,7 +1885,7 @@ ul.iphone li.phone_desc{
 .but__center input[type="submit"] {
 	background:none;
 	display: inline-block;
-	color:#ECCAAD;
+	color:#000;
 	text-transform: uppercase;
 	font-size: 1.2em;
 	transition: 0.5s ease;
@@ -1897,7 +1897,7 @@ ul.iphone li.phone_desc{
 	font-weight:600;
 }
 .but__center input[type="submit"]:hover{
-	color:#000;
+	color:#F9D9BE;
 }
 .map iframe {
 	min-height:400px;
